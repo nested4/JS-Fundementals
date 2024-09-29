@@ -1,4 +1,5 @@
 // Declarative function
+//can be called anywhere in the code even before declaration
 
 helloOne()
 function helloOne(){
@@ -6,11 +7,15 @@ function helloOne(){
 }
 
 helloOne()
-helloOne()
+
+console.log();
 
 
-//helloTwo()
+
 //Anonymous Functions, does not have a name thats why anonymous
+//can not be called before declaration
+// helloTwo()
+
 var helloTwo = function(){
     console.log('Hello Two!!')
 }

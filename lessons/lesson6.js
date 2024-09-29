@@ -22,3 +22,13 @@ else if(hour > 12 && hour <=18){
 }else{
     console.log("Good Evening")
 }
+
+var isAgeMoreThanEighteen = true
+var isUSCitizen = true
+
+if(isAgeMoreThanEighteen && isUSCitizen){
+    console.log("Customer is eligible for driving licence");
+}else{
+    console.log("Customer is NOT eligible for driving licence");
+
+}

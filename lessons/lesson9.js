@@ -1,9 +1,14 @@
 // import { CustomerDetails } from "../helpers/printHelper.js"; // importing a class
 // var customerInfo = new CustomerDetails()
+// customerInfo.printFirstName('Steve')
+// customerInfo.printLastName('Smith')
 
+// importing an instance cleaner code
 import { customerInfo } from "../helpers/printHelper.js" 
-// here we are impoting an instance cleaner code
+customerInfo.printFirstName('John')
+customerInfo.printLastName('Doe')
 
-customerInfo.printFirstName('Steve')
-customerInfo.printLastName('Jobs')
+
+
+// customerInfo.printLastName('Jobs')
 

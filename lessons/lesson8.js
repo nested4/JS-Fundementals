@@ -41,11 +41,11 @@ function multiplyByTwo(number){
 }
 console.log(multiplyByTwo(15))
 
-//import function
-// import {printAge} from '../helpers/printHelper.js'
-// printAge(42)
+// import function
+import {printAge} from '../helpers/printHelper.js'
+printAge(41)
 
 //import everything
 import *  as helper from '../helpers/printHelper.js'
 helper.printAge("ihsan")
-helper.printAge(42)
+helper.printAge(41)

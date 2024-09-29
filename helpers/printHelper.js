@@ -2,7 +2,7 @@ export function printAge(Age){
     console.log(Age)
 }
 
-//exporting a class
+//exporting a class we need to export this class to be visible
 export class CustomerDetails {
 
     /**
@@ -21,5 +21,5 @@ export class CustomerDetails {
     }
 }
 
-//exporting and instance
+//exporting an instance instead of exporting class
 export var customerInfo = new CustomerDetails()

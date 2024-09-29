@@ -35,7 +35,7 @@ function printName(name, lastName){
 printName('Recep', 'ivedik')
 printName('Recep')
 
-//function with return
+//Function with return
 function multiplyByTwo(number){
     return number*2
 }
